@@ -1,3 +1,4 @@
+import 'package:button/floatin_button.dart';
 import 'package:button/icon_button.dart';
 import 'package:flutter/material.dart';
 
@@ -14,8 +15,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
 
-      // home:ResultIconclass(),
-      home: Iconclass(),
+      home: ResultIconclass(),
+      //home: Iconclass(),
       //home: Buttonclass()
     );
   }
