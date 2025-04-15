@@ -21,8 +21,6 @@ class ResultIconclass extends StatelessWidget {
               child: TextButton(
                 onPressed: () {
                   int subject_marks;
-                  Color:
-                  Colors.blue;
                 },
                 //backgroundColor: Colors.blueAccent,
                 child: Row(
@@ -33,7 +31,7 @@ class ResultIconclass extends StatelessWidget {
                         'Subject Marks',
                         style: TextStyle(
                             fontSize: 34,
-                            color: Colors.white,
+                            color: const Color.fromARGB(255, 228, 214, 214),
                             fontWeight: FontWeight.w600),
                       ),
                     )
