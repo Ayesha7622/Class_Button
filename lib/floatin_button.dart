@@ -74,7 +74,7 @@ class ResultIconclass extends StatelessWidget {
               onPressed: () {
                 int Total_marks = 550;
               },
-              backgroundColor: Colors.lightGreen,
+              // backgroundColor: Colors.lightGreen,
               child: Row(
                 children: [Text('Total Marks:')],
               ),
