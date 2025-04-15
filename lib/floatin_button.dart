@@ -139,12 +139,15 @@ class ResultIconclass extends StatelessWidget {
               //backgroundColor: Colors.lightGreen,
               child: Row(
                 children: [
-                  Text(
-                    'Physics Marks:',
-                    style: TextStyle(
-                        fontSize: 25,
-                        color: Colors.white,
-                        fontWeight: FontWeight.w600),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text(
+                      'Physics Marks:',
+                      style: TextStyle(
+                          fontSize: 25,
+                          color: Colors.white,
+                          fontWeight: FontWeight.w600),
+                    ),
                   )
                 ],
               ),
