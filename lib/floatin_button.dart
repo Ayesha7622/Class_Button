@@ -16,13 +16,13 @@ class ResultIconclass extends StatelessWidget {
         body: Column(
           children: [
             Center(
-                child: FloatingActionButton(
+                child: TextButton(
               onPressed: () {
                 int english_marks = 88;
                 Color:
                 Colors.blue;
               },
-              backgroundColor: Colors.blueAccent,
+              //backgroundColor: Colors.blueAccent,
               child: Row(
                 children: [Text('English Marks:')],
               ),
