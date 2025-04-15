@@ -32,7 +32,7 @@ class ResultIconclass extends StatelessWidget {
                       child: Text(
                         'Subject Marks',
                         style: TextStyle(
-                            fontSize: 30,
+                            fontSize: 34,
                             color: Colors.white,
                             fontWeight: FontWeight.w600),
                       ),
