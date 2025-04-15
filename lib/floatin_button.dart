@@ -54,7 +54,7 @@ class ResultIconclass extends StatelessWidget {
                 children: [Text('Urdu Marks:')],
               ),
             ),
-            FloatingActionButton(
+            TextButton(
               onPressed: () {
                 int physics_marks = 90;
               },
