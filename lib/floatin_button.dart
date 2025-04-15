@@ -8,7 +8,6 @@ class ResultIconclass extends StatelessWidget {
   int math_marks = 0;
   int urdu_marks = 0;
   int physics_marks = 0;
-  int subject_marks=0;
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +18,7 @@ class ResultIconclass extends StatelessWidget {
             Center(
                 child: TextButton(
               onPressed: () {
-                int subject_marks:
+                int subject_marks;
                 Color:
                 Colors.blue;
               },
@@ -38,8 +37,7 @@ class ResultIconclass extends StatelessWidget {
                   )
                 ],
               ),
-            )
-            ),
+            )),
             TextButton(
               onPressed: () {
                 int english_marks = 88;
