@@ -28,7 +28,7 @@ class ResultIconclass extends StatelessWidget {
                   Text(
                     'English Marks:',
                     style: TextStyle(
-                        fontSize: 15,
+                        fontSize: 25,
                         color: Colors.white,
                         fontWeight: FontWeight.w600),
                   )
