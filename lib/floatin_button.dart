@@ -138,7 +138,15 @@ class ResultIconclass extends StatelessWidget {
               },
               //backgroundColor: Colors.lightGreen,
               child: Row(
-                children: [Text('Physics Marks:')],
+                children: [
+                  Text(
+                    'Physics Marks:',
+                    style: TextStyle(
+                        fontSize: 25,
+                        color: Colors.white,
+                        fontWeight: FontWeight.w600),
+                  )
+                ],
               ),
             ),
             TextButton(
