@@ -25,12 +25,15 @@ class ResultIconclass extends StatelessWidget {
               //backgroundColor: Colors.blueAccent,
               child: Row(
                 children: [
-                  Text(
-                    'English Marks:',
-                    style: TextStyle(
-                        fontSize: 25,
-                        color: Colors.white,
-                        fontWeight: FontWeight.w600),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text(
+                      'English Marks:',
+                      style: TextStyle(
+                          fontSize: 25,
+                          color: Colors.white,
+                          fontWeight: FontWeight.w600),
+                    ),
                   )
                 ],
               ),
