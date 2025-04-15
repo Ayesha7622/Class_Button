@@ -121,7 +121,15 @@ class ResultIconclass extends StatelessWidget {
               },
               // backgroundColor: Colors.grey,
               child: Row(
-                children: [Text('Urdu Marks:')],
+                children: [
+                  Text(
+                    'Urdu Marks:',
+                    style: TextStyle(
+                        fontSize: 25,
+                        color: Colors.white,
+                        fontWeight: FontWeight.w600),
+                  )
+                ],
               ),
             ),
             TextButton(
