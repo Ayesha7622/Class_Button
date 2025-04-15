@@ -61,14 +61,14 @@ class ResultIconclass extends StatelessWidget {
                 ],
               ),
             ),
-            TextButton(
-              onPressed: () {
-                int islamiyat_marks = 44;
-              },
-              // backgroundColor: Colors.brown,
-              child: Row(
-                children: [
-                  Padding(
+            Row(
+              children: [
+                TextButton(
+                  onPressed: () {
+                    int islamiyat_marks = 44;
+                  },
+                  // backgroundColor: Colors.brown,
+                  child: Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Text(
                       'Islamiyat Marks:',
@@ -77,9 +77,9 @@ class ResultIconclass extends StatelessWidget {
                           color: Colors.white,
                           fontWeight: FontWeight.w600),
                     ),
-                  )
-                ],
-              ),
+                  ),
+                ),
+              ],
             ),
             TextButton(
               // backgroundColor: Colors.deepPurple,
