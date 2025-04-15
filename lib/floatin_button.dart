@@ -83,7 +83,7 @@ class ResultIconclass extends StatelessWidget {
               onPressed: () {
                 // int Obtain_marks=biology_marks+urdu_marks+math_marks+physics_marks+
               },
-              backgroundColor: Colors.lightGreen,
+              //backgroundColor: Colors.lightGreen,
               child: Row(
                 children: [Text('Obtain Marks:')],
               ),
