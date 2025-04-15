@@ -45,7 +45,7 @@ class ResultIconclass extends StatelessWidget {
                 children: [Text('Math Marks:')],
               ),
             ),
-            FloatingActionButton(
+            TextButton(
               onPressed: () {
                 int urdu_marks = 85;
               },
