@@ -16,26 +16,29 @@ class ResultIconclass extends StatelessWidget {
         body: Column(
           children: [
             Center(
-                child: TextButton(
-              onPressed: () {
-                int subject_marks;
-                Color:
-                Colors.blue;
-              },
-              //backgroundColor: Colors.blueAccent,
-              child: Row(
-                children: [
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Text(
-                      'Subject Marks',
-                      style: TextStyle(
-                          fontSize: 30,
-                          color: Colors.white,
-                          fontWeight: FontWeight.w600),
-                    ),
-                  )
-                ],
+                child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: TextButton(
+                onPressed: () {
+                  int subject_marks;
+                  Color:
+                  Colors.blue;
+                },
+                //backgroundColor: Colors.blueAccent,
+                child: Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text(
+                        'Subject Marks',
+                        style: TextStyle(
+                            fontSize: 30,
+                            color: Colors.white,
+                            fontWeight: FontWeight.w600),
+                      ),
+                    )
+                  ],
+                ),
               ),
             )),
             TextButton(
