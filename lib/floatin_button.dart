@@ -187,7 +187,15 @@ class ResultIconclass extends StatelessWidget {
               onPressed: () {},
               //backgroundColor: Colors.lightGreen,
               child: Row(
-                children: [Text(' Percentage')],
+                children: [
+                  Text(
+                    ' Percentage',
+                    style: TextStyle(
+                        fontSize: 25,
+                        color: Colors.white,
+                        fontWeight: FontWeight.w600),
+                  )
+                ],
               ),
             ),
           ],
