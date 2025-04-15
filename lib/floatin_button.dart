@@ -28,7 +28,7 @@ class ResultIconclass extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Text(
-                      'English Marks = 85/100',
+                      'English Marks =87/100',
                       style: TextStyle(
                           fontSize: 25,
                           color: Colors.white,
