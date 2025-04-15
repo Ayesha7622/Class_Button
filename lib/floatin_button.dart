@@ -84,12 +84,15 @@ class ResultIconclass extends StatelessWidget {
               // backgroundColor: Colors.deepPurple,
               child: Row(
                 children: [
-                  Text(
-                    'Biology Marks:',
-                    style: TextStyle(
-                        fontSize: 25,
-                        color: Colors.white,
-                        fontWeight: FontWeight.w600),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text(
+                      'Biology Marks:',
+                      style: TextStyle(
+                          fontSize: 25,
+                          color: Colors.white,
+                          fontWeight: FontWeight.w600),
+                    ),
                   )
                 ],
               ),
