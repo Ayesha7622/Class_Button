@@ -81,7 +81,7 @@ class ResultIconclass extends StatelessWidget {
                 children: [Text('Obtain Marks:')],
               ),
             ),
-            FloatingActionButton(
+            TextButton(
               onPressed: () {},
               backgroundColor: Colors.lightGreen,
               child: Row(
