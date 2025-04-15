@@ -63,7 +63,7 @@ class ResultIconclass extends StatelessWidget {
                 children: [Text('Physics Marks:')],
               ),
             ),
-            FloatingActionButton(
+            TextButton(
               onPressed: () {
                 int Total_marks = 550;
               },
