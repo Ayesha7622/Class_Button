@@ -18,7 +18,7 @@ class ResultIconclass extends StatelessWidget {
                 children: [Text('English Marks:')],
               ),
             )),
-            FloatingActionButton(
+            TextButton(
               onPressed: () {
                 int islamiyat_marks = 44;
               },
@@ -27,7 +27,7 @@ class ResultIconclass extends StatelessWidget {
                 children: [Text('Islamiyat Marks:')],
               ),
             ),
-            FloatingActionButton(
+            TextButton(
               onPressed: () {
                 int biology_marks = 92;
               },
@@ -36,7 +36,7 @@ class ResultIconclass extends StatelessWidget {
                 children: [Text('Biology Marks:')],
               ),
             ),
-            FloatingActionButton(
+            TextButton(
               onPressed: () {
                 int math_marks = 97;
               },
