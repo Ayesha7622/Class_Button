@@ -2,6 +2,13 @@ import 'package:flutter/material.dart';
 
 class ResultIconclass extends StatelessWidget {
   const ResultIconclass({super.key});
+  int english_marks = 0;
+  int islamiyat_marks = 0;
+  int biology_marks = 0;
+  int math_marks = 0;
+  int urdu_marks = 0;
+  int physics_marks = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -22,7 +29,7 @@ class ResultIconclass extends StatelessWidget {
               onPressed: () {
                 int islamiyat_marks = 44;
               },
-              backgroundColor: Colors.brown,
+              // backgroundColor: Colors.brown,
               child: Row(
                 children: [Text('Islamiyat Marks:')],
               ),
@@ -31,7 +38,7 @@ class ResultIconclass extends StatelessWidget {
               onPressed: () {
                 int biology_marks = 92;
               },
-              backgroundColor: Colors.deepPurple,
+              // backgroundColor: Colors.deepPurple,
               child: Row(
                 children: [Text('Biology Marks:')],
               ),
@@ -40,7 +47,7 @@ class ResultIconclass extends StatelessWidget {
               onPressed: () {
                 int math_marks = 97;
               },
-              backgroundColor: Colors.green,
+              // backgroundColor: Colors.green,
               child: Row(
                 children: [Text('Math Marks:')],
               ),
@@ -49,7 +56,7 @@ class ResultIconclass extends StatelessWidget {
               onPressed: () {
                 int urdu_marks = 85;
               },
-              backgroundColor: Colors.grey,
+              // backgroundColor: Colors.grey,
               child: Row(
                 children: [Text('Urdu Marks:')],
               ),
