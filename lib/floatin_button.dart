@@ -12,7 +12,7 @@ class ResultIconclass extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: const Color.fromARGB(255, 52, 94, 78),
+        backgroundColor: const Color.fromARGB(255, 6, 65, 69),
         body: Column(
           children: [
             Center(
