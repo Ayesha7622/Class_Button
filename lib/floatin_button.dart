@@ -54,7 +54,7 @@ class ResultIconclass extends StatelessWidget {
               ),
               onPressed: () {
                 int biology_marks = 92;
-                print('bio marks$biology_marks')
+                print('bio marks$biology_marks');
               },
             ),
             TextButton(
