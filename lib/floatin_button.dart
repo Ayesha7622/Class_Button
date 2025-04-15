@@ -90,7 +90,7 @@ class ResultIconclass extends StatelessWidget {
             ),
             TextButton(
               onPressed: () {},
-              backgroundColor: Colors.lightGreen,
+              //backgroundColor: Colors.lightGreen,
               child: Row(
                 children: [Text(' Percentage')],
               ),
