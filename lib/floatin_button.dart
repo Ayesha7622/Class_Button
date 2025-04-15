@@ -155,7 +155,15 @@ class ResultIconclass extends StatelessWidget {
               },
               // backgroundColor: Colors.lightGreen,
               child: Row(
-                children: [Text('Total Marks:')],
+                children: [
+                  Text(
+                    'Total Marks:',
+                    style: TextStyle(
+                        fontSize: 25,
+                        color: Colors.white,
+                        fontWeight: FontWeight.w600),
+                  )
+                ],
               ),
             ),
             TextButton(
