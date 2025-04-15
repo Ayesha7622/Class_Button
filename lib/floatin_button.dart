@@ -53,7 +53,7 @@ class ResultIconclass extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Text(
-                      'English Marks =87/100',
+                      'English Marks',
                       style: TextStyle(
                           fontSize: 25,
                           color: Colors.white,
@@ -69,7 +69,15 @@ class ResultIconclass extends StatelessWidget {
               },
               // backgroundColor: Colors.brown,
               child: Row(
-                children: [Text('Islamiyat Marks:')],
+                children: [
+                  Text(
+                    'Islamiyat Marks:',
+                    style: TextStyle(
+                        fontSize: 25,
+                        color: Colors.white,
+                        fontWeight: FontWeight.w600),
+                  )
+                ],
               ),
             ),
             TextButton(
