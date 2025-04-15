@@ -65,7 +65,7 @@ class ResultIconclass extends StatelessWidget {
               onPressed: () {
                 int physics_marks = 90;
               },
-              backgroundColor: Colors.lightGreen,
+              //backgroundColor: Colors.lightGreen,
               child: Row(
                 children: [Text('Physics Marks:')],
               ),
