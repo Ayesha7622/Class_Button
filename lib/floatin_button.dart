@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ResultIconclass extends StatelessWidget {
-  const ResultIconclass({super.key});
+  ResultIconclass({super.key});
   int english_marks = 0;
   int islamiyat_marks = 0;
   int biology_marks = 0;
