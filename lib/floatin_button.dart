@@ -19,6 +19,8 @@ class ResultIconclass extends StatelessWidget {
                 child: FloatingActionButton(
               onPressed: () {
                 int english_marks = 88;
+                Color:
+                Colors.blue;
               },
               backgroundColor: Colors.blueAccent,
               child: Row(
