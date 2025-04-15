@@ -83,7 +83,15 @@ class ResultIconclass extends StatelessWidget {
             TextButton(
               // backgroundColor: Colors.deepPurple,
               child: Row(
-                children: [Text('Biology Marks:')],
+                children: [
+                  Text(
+                    'Biology Marks:',
+                    style: TextStyle(
+                        fontSize: 25,
+                        color: Colors.white,
+                        fontWeight: FontWeight.w600),
+                  )
+                ],
               ),
               onPressed: () {
                 int biology_marks = 92;
