@@ -42,8 +42,7 @@ class ResultIconclass extends StatelessWidget {
             TextButton(
               onPressed: () {
                 int english_marks = 88;
-                Color:
-                Colors.blue;
+               
               },
               //backgroundColor: Colors.blueAccent,
               child: Row(
